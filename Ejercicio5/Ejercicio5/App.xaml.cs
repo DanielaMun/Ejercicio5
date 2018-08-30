@@ -11,7 +11,7 @@ namespace Ejercicio5
 		{
 			InitializeComponent();
 
-			MainPage = new DemoMasterDetail();
+			MainPage = new NavigationPage(new Navegacion() );
 		}
 
 		protected override void OnStart ()

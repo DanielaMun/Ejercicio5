@@ -4,9 +4,9 @@
              x:Class="Ejercicio5.Detalle">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Soy el detalle"
+                        BackgroundColor="Silver"
+                        TextColor="Azure"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

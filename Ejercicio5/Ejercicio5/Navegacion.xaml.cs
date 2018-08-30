@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Ejercicio5
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class NavigationPage : ContentPage
+	public partial class Navegacion : ContentPage
 	{
-		public NavigationPage ()
+		public Navegacion ()
 		{
 			InitializeComponent ();
 		}
