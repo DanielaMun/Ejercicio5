@@ -2,12 +2,40 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejercicio5.ExtencionesMarcado">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <LayoutOptions x:Key="Horopt"
+                           Alignment="Start"/>
+            <LayoutOptions x:Key="VerOpt"
+                          Alignment="Center"
+                          Expands="True"/>
+            <x:Double x:Key="FontSize">
+                50
+              
+         </x:Double>
+            <x:Double x:Key="Rot">
+                150
+
+            </x:Double>
+            <Style x:Key="Boton1" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="{StaticResource Horopt}"></Setter>
+                <Setter Property="VerticalOptions" Value="{ StaticResource VerOpt}"></Setter>
+                <Setter Property="Rotation"  Value="50"></Setter>
+            </Style>
+            <OnPlaform x:Key="Plataformas" x:TypeArguments="Color">
+                <On Platform="iOS" Value="Green"></On>
+                
+
+            </OnPlaform>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
             <Button Text="Clasica"
                    BorderWidth="3"
                    TextColor="Red"
                    FontSize="24"
+                    Style="{StaticResource Boton1}"
                    />
             <Button Text="pop"
                     HorizontalOptions="CenterAndExpand"
@@ -15,12 +43,18 @@
                     BorderWidth="3"
                     Rotation="-15"
                     TextColor="Red"
+                    FontSize="{StaticResource FontSize}"
                     />
             <Button Text="Rock"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand"
                     BorderWidth="3"
-                    FontSize="24"></Button>
+                    FontSize="24"
+                    Rotation="{StaticResource Rot}"
+                   
+                    />
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
