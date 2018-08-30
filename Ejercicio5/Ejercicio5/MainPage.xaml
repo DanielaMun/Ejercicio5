@@ -11,7 +11,7 @@
 
         <Button x:Name="btn1"
         Text="Boton1"
-        Clicked="btn1_clicked"
+        Clicked="btn1_Clicked"
         
         ></Button>
     </StackLayout>

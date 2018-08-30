@@ -22,11 +22,11 @@
                 <Setter Property="VerticalOptions" Value="{ StaticResource VerOpt}"></Setter>
                 <Setter Property="Rotation"  Value="50"></Setter>
             </Style>
-            <OnPlaform x:Key="Plataformas" x:TypeArguments="Color">
+            <OnPlatform x:Key="Plataformas" x:TypeArguments="Color">
                 <On Platform="iOS" Value="Green"></On>
-                
-
-            </OnPlaform>
+                <On Platform="Android" Value="red"></On>
+             
+            </OnPlatform>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
@@ -51,6 +51,7 @@
                     BorderWidth="3"
                     FontSize="24"
                     Rotation="{StaticResource Rot}"
+                    TextColor="{StaticResource }"
                    
                     />
 
