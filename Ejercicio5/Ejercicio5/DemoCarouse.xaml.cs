@@ -10,17 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Ejercicio5
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Navegacion : ContentPage
+	public partial class DemoCarouse : CarouselPage
 	{
-		public Navegacion ()
+		public DemoCarouse ()
 		{
 			InitializeComponent ();
-          
 		}
-
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Page2());
-        }
-    }
+	}
 }

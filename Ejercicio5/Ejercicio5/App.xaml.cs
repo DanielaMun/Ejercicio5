@@ -10,8 +10,15 @@ namespace Ejercicio5
 		public App ()
 		{
 			InitializeComponent();
+            //var navigationpage = new NavigationPage(new Navegacion());
+            //navigationpage.BackgroundColor = Color.Chartreuse;
+            //navigationpage.BarTextColor = Color.White;
+            //MainPage = navigationpage;
 
-			MainPage = new NavigationPage(new Navegacion() );
+
+
+            //MainPage = new NavigationPage(new Navegacion() );
+            MainPage = new DemoCarouse();
 		}
 
 		protected override void OnStart ()

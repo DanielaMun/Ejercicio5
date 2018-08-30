@@ -10,17 +10,17 @@ using Xamarin.Forms.Xaml;
 namespace Ejercicio5
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Navegacion : ContentPage
+	public partial class Page4 : ContentPage
 	{
-		public Navegacion ()
+		public Page4 ()
 		{
 			InitializeComponent ();
-          
+            btnCerrar.Clicked += BtnCerrar_Clicked;        
 		}
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        private void BtnCerrar_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page2());
+            Navigation.PopModalAsync();
         }
     }
 }

@@ -5,9 +5,20 @@
              Title="Navegacion">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label  Text="Esta es una pagina de navegacion "
+                    VerticalOptions="CenterAndExpand"
+                    XAlign="Center"/>
+            
+            
+            <Button 
+                    Text="Pagina 2"
+                    Clicked="Button_Clicked"
+                    BackgroundColor="Violet"
+                VerticalOptions="EndAndExpand"
+                
+                
+                 />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -156,4 +156,13 @@
       <Name>Ejercicio5</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Imagen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Imagen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Imagen3.png" />
+  </ItemGroup>
 </Project>
