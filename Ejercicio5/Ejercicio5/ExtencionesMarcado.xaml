@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio5.ExtencionesMarcado">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Clasica"
+                   BorderWidth="3"
+                   TextColor="Red"
+                   FontSize="24"
+                   />
+            <Button Text="pop"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    BorderWidth="3"
+                    Rotation="-15"
+                    TextColor="Red"
+                    />
+            <Button Text="Rock"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    BorderWidth="3"
+                    FontSize="24"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
