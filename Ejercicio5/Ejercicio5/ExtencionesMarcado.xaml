@@ -4,7 +4,7 @@
              x:Class="Ejercicio5.ExtencionesMarcado">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <LayoutOptions x:Key="Horopt"
+            <LayoutOptions x:Key="HorOpt"
                            Alignment="Start"/>
             <LayoutOptions x:Key="VerOpt"
                           Alignment="Center"
@@ -18,7 +18,7 @@
 
             </x:Double>
             <Style x:Key="Boton1" TargetType="Button">
-                <Setter Property="HorizontalOptions" Value="{StaticResource Horopt}"></Setter>
+                <Setter Property="HorizontalOptions" Value="{StaticResource HorOpt}"></Setter>
                 <Setter Property="VerticalOptions" Value="{ StaticResource VerOpt}"></Setter>
                 <Setter Property="Rotation"  Value="50"></Setter>
             </Style>
